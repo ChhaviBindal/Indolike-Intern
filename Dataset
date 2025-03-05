@@ -1,0 +1,8 @@
+The dataset (https://www.kaggle.com/datasets/lakshmi25npathi/online-retail-dataset ) contains customer transaction data, including Invoice, StockCode, Description, Quantity, InvoiceDate, Price, Customer ID, and Country.
+The Customer ID column was used to aggregate transactions and compute RFM scores.
+
+Technologies Used
+-Python
+-Pandas & NumPy (Data Processing)
+-Matplotlib & Seaborn (Data Visualization)
+-Scikit-Learn (Clustering & Evaluation)
