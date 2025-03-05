@@ -1,0 +1,19 @@
+Customer segmentation involves dividing customers into groups based on their spending patterns and engagement. 
+This project utilizes RFM (Recency, Frequency, Monetary) Analysis to extract meaningful features and applies clustering techniques to segment customers effectively.
+
+Key Features
+1. Data Preprocessing:
+-Handled missing values in columns like Description and Customer ID.
+-Removed negative or zero values for Quantity and Price.
+-Converted InvoiceDate to a datetime format for time-based analysis.
+2. Feature Engineering:
+-Created TotalPrice (Quantity * Price) to measure transaction value.
+-Extracted Recency, Frequency, and Monetary (RFM) values per customer.
+3. Data Normalization:
+-Standardized RFM values using StandardScaler for optimal clustering.
+-Optimal Cluster Selection:
+-Used Elbow Method and Silhouette Score to determine the best number of clusters.
+-Found 4 optimal clusters with a Silhouette Score of 0.61.
+4. K-Means Clustering:
+-Applied K-Means to assign customers into segments.
+-Visualized clusters based on Recency vs. Monetary value.
